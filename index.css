@@ -9,9 +9,6 @@ html, body {
 
 body {
     background: no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
     text-shadow: 1px 1px 2px #000;
     color: #fff;
@@ -32,7 +29,6 @@ main > div {
 
 h1.time {
     text-align: center;
-    font-size: 4rem;
 }
 
 .crypto{

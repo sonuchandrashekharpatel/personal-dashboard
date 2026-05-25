@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-shadow: 1px 1px 2px #000;
+    color: #fff;
+}
+
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1.time {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.crypto{
+    margin: 10px;
+}
+
+.crypto-top {
+    display: flex;
+    gap: 10px;
+    font-size: 1.3rem;
+    align-items: center;
+}
+
+.crypto-icon {
+    width: 80%;
+    height: 80%;
+}
+
+.crypto p{
+    margin: 0;
+}
+
+
+.weather {
+    margin-right: 10px
+}
+
+.weather-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-icon {
+    width: 70px;
+    height: 70px;
+}
+
+.temp {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p.temp, .location {
+    margin: 0;
+}
+
+
+.location {
+    font-size: 20px;
+    text-align: center;
+    margin-top: -10px;
+    margin-left: 5px;
+}
